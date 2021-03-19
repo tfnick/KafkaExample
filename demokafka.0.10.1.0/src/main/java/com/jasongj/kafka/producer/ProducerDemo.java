@@ -11,7 +11,7 @@ public class ProducerDemo {
 
 	public static void main(String[] args) throws Exception {
 		Properties props = new Properties();
-		props.put("bootstrap.servers", "kafka0:9092");
+		props.put("bootstrap.servers", "127.0.0.1:9092");
 		props.put("acks", "all");
 		props.put("retries", 3);
 		props.put("batch.size", 16384);
